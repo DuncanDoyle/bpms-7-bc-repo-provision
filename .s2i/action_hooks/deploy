@@ -26,3 +26,12 @@ echo " -----> Contents of the current working directory after build run."
 
 ls -R .
 
+echo "Who am I??"
+whoami
+
+echo "Content of JBOSS_HOME"
+ls -la $JBOSS_HOME
+echo "Content of data dir"
+ls -la $JBOSS_HOME/standalone/data
+echo "Content of BPM Suite dir"
+ls -la $JBOSS_HOME/standalone/data
