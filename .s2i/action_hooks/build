@@ -31,3 +31,4 @@ echo " -----> Copy the Git repos to the BC .niogit dir."
 #cp $S2I_SOURCE_PATH/.s2i/contrib/kie-server-services-advanced-query-registration-6.5.0.Final-redhat-15.jar $JBOSS_HOME/standalone/deployments/kie-server.war/WEB-INF/lib/kie-server-services-advanced-query-registration-6.5.0.Final-redhat-15.jar
 cp -R $S2I_SOURCE_PATH/.s2i/contrib/.niogit $JBOSS_HOME/standalone/data/bpmsuite/.niogit
 chown -R jboss:root $JBOSS_HOME/standalone/data/bpmsuite
+ls -la $JBOSS_HOME/standalone/data
