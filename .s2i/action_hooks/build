@@ -29,9 +29,9 @@ ls -R .
 echo " -----> Copy the Git repos to the BC .niogit dir."
 #cp $S2I_SOURCE_PATH/.s2i/contrib/client-onboarding-query-mapper-1.0.0-SNAPSHOT.jar $JBOSS_HOME/standalone/deployments/kie-server.war/WEB-INF/lib/client-onboarding-query-mapper-1.0.0-SNAPSHOT.jar
 #cp $S2I_SOURCE_PATH/.s2i/contrib/kie-server-services-advanced-query-registration-6.5.0.Final-redhat-15.jar $JBOSS_HOME/standalone/deployments/kie-server.war/WEB-INF/lib/kie-server-services-advanced-query-registration-6.5.0.Final-redhat-15.jar
-cp -R $S2I_SOURCE_PATH/.s2i/contrib/.niogit $JBOSS_HOME/standalone/data/bpmsuite/.niogit
-chown -R jboss:root $JBOSS_HOME/standalone/data/bpmsuite
-echo "LS of the data dir."
-ls -la $JBOSS_HOME/standalone/data
+#cp -R $S2I_SOURCE_PATH/.s2i/contrib/.niogit $JBOSS_HOME/standalone/data/bpmsuite/.niogit
+#chown -R jboss:root $JBOSS_HOME/standalone/data/bpmsuite
+#echo "LS of the data dir."
+#ls -la $JBOSS_HOME/standalone/data
 echo "LS of the JBOSS Home dir."
 ls -la $JBOSS_HOME
